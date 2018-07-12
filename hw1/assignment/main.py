@@ -56,7 +56,7 @@ def drawRectangle(myTurtle: turtle, width: int, height: int):
 
 def multiples_of_5():
     # Use the range function to create a sequence of the multiples of 5 up to 50
-    return range(5, 50, 5)
+    return list(range(5, 50+1, 5))
 
 
 def bonus_turtle(max_x: int):
