@@ -1,0 +1,26 @@
+A) Share your thoughts about Bruteforce?
+Bruteforce, as the name implies, is a very simple strategy that relies on the strengths of the computer, primarily computation speed, to break encryption. If possible, I'd prefer to use something other than brute force logic, but if you can spare the cycles, it is a very easy way to get things done.
+
+B) What is the difference between row major storage and column major storage?
+Row major stores an entire column first; column major stores an entire column first. This can affect how cells are indexed, depending on the language.
+
+C) Differentiate between the two optional parameters for the sort method key and reverse with examples?
+The 'key' parameter specifies what field should be used when sorting. The 'reverse' parameter specifies ascending vs descending.
+---examples---
+
+D) Discuss summarized steps 1,2,3,...  of cryptanalysis of the substitution cipher.
+1 - letter frequency
+
+
+E) Every student in the groups listed below should do the following 
+
+    1- Encrypt a statement using substitution cipher... choose a good statement and key please 
+
+    2- Send the cipher to his/her peer(s) VIA Blackboard discussion 
+
+    3- The peer should perform cryptoanalysis to decrypt the ciphertext and recover the key and reveal them to all other students.
+
+        Group 2:  Derrick, Phillip
+
+
+F) Bonus: What methods can be used to strengthen substitution ciphers? 
