@@ -5,11 +5,21 @@ B) What is the difference between row major storage and column major storage?
 Row major stores an entire column first; column major stores an entire column first. This can affect how cells are indexed, depending on the language.
 
 C) Differentiate between the two optional parameters for the sort method key and reverse with examples?
-The 'key' parameter specifies what field should be used when sorting. The 'reverse' parameter specifies ascending vs descending.
----examples---
+The 'key' parameter specifies what field should be used when sorting. The 'reverse' parameter specifies ascending vs descending sort order of the key.
+
+---Example---
+>>> thing1 = [("z", 1), ("v", 2), ("b", 3), ("x", 4), ("r", 5), ("p", 6), ("l", 7)]
+>>> thing1.sort(key=lambda x: x[1], reverse=True)
+>>> thing1
+[('l', 7), ('p', 6), ('r', 5), ('x', 4), ('b', 3), ('v', 2), ('z', 1)]
+
 
 D) Discuss summarized steps 1,2,3,...  of cryptanalysis of the substitution cipher.
-1 - letter frequency
+1 - letter frequency p.271
+2 - cipher text frequency analysis p.277
+3 - letter pair analysis p.278
+4 - word frequency analysis p.287
+5 - Pattern matching with partial words p.291
 
 
 E) Every student in the groups listed below should do the following 
@@ -18,7 +28,7 @@ E) Every student in the groups listed below should do the following
 
     2- Send the cipher to his/her peer(s) VIA Blackboard discussion 
 
-    3- The peer should perform cryptoanalysis to decrypt the ciphertext and recover the key and reveal them to all other students.
+    3- The peer should perform cryptanalysis to decrypt the ciphertext and recover the key and reveal them to all other students.
 
         Group 2:  Derrick, Phillip
 
